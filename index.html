@@ -1,40 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TODO LIST</title>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>TODO LIST</title>
 
-    <link rel="stylesheet" href="main.css">
-    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+        <link rel="stylesheet" href="main.css" />
+        <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-</head>
-<body>
-    <header class="header">
-        <h1 class="header__title">ToDo List</h1>
-    </header>
-    
-    <main class="main">
-        <div class="container">
-            <form action="" class="ToDo-form">
-                <label class="ToDo-form__label" >
-                    <input name="todo" placeholder="new todo" type="text" class="ToDo-form__input form">
-                </label>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <header class="header">
+            <h1 class="header__title">ToDo List</h1>
+        </header>
 
-                <select name="user" class="ToDo-form__select form">
-                    <option value="" class="ToDo-form__option" disabled selected>Select user</option>
-                </select>
+        <main class="main">
+            <div class="container">
+                <form action="" class="ToDo-form">
+                    <label class="ToDo-form__label">
+                        <input
+                            name="todo"
+                            placeholder="new todo"
+                            type="text"
+                            class="ToDo-form__input form"
+                        />
+                    </label>
 
-                <button class="ToDo-form__button form">Add Todo</button>
-            </form>
+                    <select name="user" class="ToDo-form__select form">
+                        <option
+                            value=""
+                            class="ToDo-form__option"
+                            disabled
+                            selected
+                        >
+                            Select user
+                        </option>
+                    </select>
 
-            <ul class="ToDo-list"></ul>
-        </div>
-    </main>
+                    <button class="ToDo-form__button form">Add Todo</button>
+                </form>
 
-    <script src="app.js"></script>
-</body>
+                <ul class="ToDo-list"></ul>
+            </div>
+        </main>
+
+        <script src="app.js"></script>
+    </body>
 </html>

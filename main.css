@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     padding: 0;
 
@@ -7,7 +7,6 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
-    
 }
 
 .header {
@@ -17,7 +16,6 @@ body{
 
     padding: 20px;
     margin-top: 20px;
-    
 
     text-align: center;
 }
@@ -29,7 +27,7 @@ body{
 
 /* HEADER*/
 
-.ToDo-form{
+.ToDo-form {
     margin-top: 40px;
 
     display: flex;
@@ -37,32 +35,32 @@ body{
     align-items: center;
 }
 
-.container{
+.container {
     box-sizing: border-box;
     max-width: 600px;
 }
 
-.form{
+.form {
     width: 100%;
     text-indent: 15px;
     border-radius: 3px;
     height: 35px;
 }
 
-.ToDo-form__label{
+.ToDo-form__label {
     width: 100%;
 }
-.ToDo-form__input{
+.ToDo-form__input {
     width: 100%;
 
     box-sizing: border-box;
 }
 
-.ToDo-form__select{
+.ToDo-form__select {
     margin-top: 10px;
 }
 
-.ToDo-form__button{
+.ToDo-form__button {
     background-color: #5338ff;
 
     margin-top: 10px;
@@ -71,17 +69,17 @@ body{
     color: white;
 }
 
-.ToDo-form__button:hover{
+.ToDo-form__button:hover {
     cursor: pointer;
 }
 
-.ToDo-list{
+.ToDo-list {
     list-style: none;
     padding-left: 0;
     width: 100%;
 }
 
-.ToDo-list__item{
+.ToDo-list__item {
     margin-bottom: 12px;
     padding-left: 10px;
     padding-right: 10px;
@@ -93,19 +91,19 @@ body{
     border-radius: 10px;
 }
 
-.ToDo-list__close{
+.ToDo-list__close {
     color: red;
 
     margin-left: auto;
 }
 
-.ToDo-list__close:hover{
+.ToDo-list__close:hover {
     opacity: 0.7;
     transition: 0.3s;
 
     cursor: pointer;
 }
 
-.ToDo-list__text{
+.ToDo-list__text {
     margin: 15px;
 }
